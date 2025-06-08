@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            font-size: 8px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" style="border: 2px solid chocolate; padding: 7px;">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <h3>Full Name</h3>
+            <div>
+                <label for="">firat name :</label>
+                <input type="text"><br>
+                <label for="">last name :</label>
+                <input type="text">
+            </div>
+
+            <h3>Gender</h3>
+            <div>
+                <input type="radio">
+                <label for="">Men</label>
+                <br>
+                <input type="radio">
+                <label for="">Women</label>
+            </div>
+
+        </fieldset><br><br>
+            
+        <fieldset>
+            <legend>Skills</legend>
+            <h3>Languages</h3>
+
+            <div>
+                <input type="checkbox">
+                <label for="">html</label>
+                <br>
+                <input type="checkbox" name="" id="">
+                <label for="">Css</label>
+                <br>
+                <input type="checkbox">
+                <label for="">Java</label>
+            </div>
+        </fieldset>
+
+
+        <div>
+            <h3>Choos your programming languages :</h3>
+        
+            <input type="text" list="mylist">
+            <datalist id="mylist">
+                <option value="">python</option>
+                <option value="">html</option>
+                <option value="">Css</option>
+                <option value="">C++</option>
+                <option value="">java</option>
+                <option value="">php</option>
+            </datalist>
+        </div>
+    </form>
+
+
+</body>
+</html>
