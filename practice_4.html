@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(48, 46, 46);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        form{
+    
+            padding: 15px; 
+            text-align: center;
+            background-color: white;
+            border-radius: 20px;
+            width: 250px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            margin-bottom: auto;
+        }
+        img{
+            text-align: center;
+            width: 150px;
+            border-radius: 50%;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid rgb(228, 227, 220);
+        }
+        #checkbox{
+            text-align: right;
+        }
+        label{
+            font-size: 15px;
+        }
+        #sub{
+            background-color: rgb(55, 190, 73);
+            height: 35px;
+            color: rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <img src="./picture/download (1).jpg" alt="" >
+        </div>
+        <div>
+            <input type="text" name="name" id="" placeholder="نام مستعار" autofocus><br><br>
+
+            <input type="email" name="email" placeholder="ایمیل" required><br><br>
+
+            <input type="password" name="pass" placeholder="رمز عبور" required maxlength="10"><br><br>
+
+            <input type="password" name="reapss" placeholder="تکرار رمز عبور" required maxlength="10"><br><br>
+
+            <input type="checkbox" id="checkbox" style="width: 13px;">
+            <label for="checkbox">شرایط و قوانین سایت <a href="">سبزلرن</a> را میپذیرم.</label><br><br>
+            
+            <input type="submit" id="sub" value="ثبت نام">
+        </div>
+    </form>
+</body>
+</html>
